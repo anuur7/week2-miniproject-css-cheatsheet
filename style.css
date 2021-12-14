@@ -5,24 +5,47 @@
 }
 
 body{
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(151, 148, 148);
 }
 
 .header{
-    padding: 5px;
+   
 }
 
 .main-title{
     text-align: center;
     margin-top: 30px;
     color: green;
-    text-shadow: 3px 2px white;
+    text-shadow: 3px 2px black;
     font-size: 60px;
 }
 
 .header p{
     text-align: center;
     margin: 30px;
-    color: white;
+    color: black;
     font-size: 20px;
 }
+
+.justify-content{
+display: flex;
+justify-content: space-evenly;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 0px 5px 5px 5px;
+}
+
+.card h2{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+.card pre{
+    color: green;
+    margin-top: 10px;
+}
+
